@@ -1,0 +1,67 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    background-color: #227C9D;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    /* transition: background-color 2s; */
+    display: inline-flex;
+    margin-bottom: 10px;    
+}
+
+.btn:hover {
+    background-color: #227c9dcc;
+    transition: 2s;
+}
+
+article {
+    display: flex; 
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: #227C9D 2px solid;
+}
+
+.blog-text {
+    margin-left: 10px;
+}
+
+.blog-text h2 {
+    margin-top: 0;
+}
+
+.blog-img {
+    width: 150px;
+    height: 150px;
+}
+
+
+.container {
+    padding-left: 15px; 
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}

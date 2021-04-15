@@ -1,0 +1,116 @@
+#birthday-table {
+    border: 2px black solid;
+    background-color: aliceblue;
+}
+
+h1 {
+    color: #593959;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: #5B4E77;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    color: #2e5eaa;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
+}
+
+.round-img {
+    border-radius: 50%;
+}
+
+.border-img {
+    border: 3px #5B4E77 solid;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+body {
+    margin:0;
+}
+
+main {
+    margin: 8px;
+}
+
+header {
+    background-color: #cccccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+}
+
+header a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header a:hover {
+    background-color: #999999;
+}
+
+footer {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+.container {
+    padding-left: 15px; 
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+
+
+
+
+
+
+
+/* .blog {
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    display: flex;
+}
+
+.article-text {
+    display: flex;
+    flex-direction: column;
+} */
+
