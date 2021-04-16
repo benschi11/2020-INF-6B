@@ -2,6 +2,10 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.gallerie img {
+    height: 400px;
+}
+
 .btn {
     background-color: #227C9D;
     padding: 10px 25px;
